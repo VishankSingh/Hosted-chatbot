@@ -1,3 +1,3 @@
 # online-chatbot
 
-I will be making a chatbot and connect it to a website<br>
+I have made a chatbot using tensorflow v2.0 
