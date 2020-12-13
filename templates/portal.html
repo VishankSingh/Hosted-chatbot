@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div id="main">
+
+    <div id="output">{{text}}</div>
+    <form method="POST">
+        <input id="inputt" name="in">
+    </form>
+
+</div>
+
+</body>
+</html>
