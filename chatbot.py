@@ -115,8 +115,8 @@ def chat():
                 else:
                     print("Please rephrase it!") 
                     with open('exception.txt', 'r') as f:
-                        if inp not in f.read():
-                            with open('exception.txt', 'a') as f:
-                                f.write(f'{inp}  (Predicted category: {tag})\n')
+                      
+                    
+                             
                                 
 chat()
