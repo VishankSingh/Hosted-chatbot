@@ -110,11 +110,11 @@ def chat(inp):
                         if tg["tag"] == tag:
                             responses = tg["responses"]
 
-                    print(f"{random.choice(responses)}   (Category: {tag})")
+                    return random.choice(responses)
 
                 else:
-                    print("Please rephrase it!") 
-                    with open('exception.txt', 'r') as f:
+                    return "Please rephrase it!"
+                   
                       
                     
                              
