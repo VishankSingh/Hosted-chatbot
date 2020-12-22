@@ -91,17 +91,17 @@ def bag_of_words(s, words):
   
 def chat(inp):
     
-        while True:
+
        
            
                 
-                
+            
           
             
                 
-            
+
                 results = model.predict([bag_of_words(inp, words)])[0]
-               
+              
                 results_index = numpy.argmax(results)
                 tag = labels[results_index]
 
@@ -113,7 +113,8 @@ def chat(inp):
                     return random.choice(responses)
 
                 else:
-                    return "Please rephrase it!"
+                    s = 'Please rephrase it!!'
+                    return s
                    
                       
                     
