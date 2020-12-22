@@ -96,10 +96,10 @@ def chat(inp):
             if inp.lower() == "/quit":
                 break
                 exit()
-            elif inp.lower() == "/retrain":
-                train()
-                chat()
-            else:
+          
+            
+                
+            
                 results = model.predict([bag_of_words(inp, words)])[0]
                
                 results_index = numpy.argmax(results)
