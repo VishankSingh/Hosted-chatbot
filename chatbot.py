@@ -93,9 +93,9 @@ def chat(inp):
     
         while True:
        
-            if inp.lower() == "/quit":
-                break
-                exit()
+           
+                
+                
           
             
                 
