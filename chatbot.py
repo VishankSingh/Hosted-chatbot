@@ -115,8 +115,7 @@ def chat(inp):
                     s = 'Please rephrase it!!'
                     return s
                    
-                      
+
                     
     
                                 
-chat()
