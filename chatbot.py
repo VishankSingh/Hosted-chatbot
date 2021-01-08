@@ -93,12 +93,11 @@ def chat(inp):
     
 
        
-           
-                
+                         
             
-          
+         
             
-                
+
 
                 results = model.predict([bag_of_words(inp, words)])[0]
               
@@ -118,6 +117,6 @@ def chat(inp):
                    
                       
                     
-                             
+    
                                 
 chat()
