@@ -1,9 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Page Title</title>
+    <title>Chatbot</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
+
+<style>
+    body {
+        background-color: #141414;
+        font-family: 'Poppins';
+    }
+
+    #output {
+        background-color: #d6d6d6;
+        position: absolute;
+        top: 35vh;
+        left: 15vw;
+        width: 70vw;
+        font-size: 2vw;
+    }
+
+    #inputt {
+        background-color: #d6d6d6;
+        color: #353535;
+        position: absolute;
+        top: 45vh;
+        left: 15vw;
+        width: 70vw;
+        font-size: 2vw;
+
+    }
+
+</style>
 
 <body>
 
